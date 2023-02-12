@@ -8,6 +8,7 @@ import dataprovider.ConfigFileReader;
 import constants.FieldIdentifier;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -28,12 +29,17 @@ public class RegisterSteps {
     private CustomerAddress customerAddress;
     private RegisterPage registerPage;
 
+
+    @BeforeAll
+    public void setupClass(){
+        WebDriverManager.edgedriver().setup();
+    }
+
     @Before("@CustomerRegister")
     public void setup(){
         ConfigFileReader configFileReader = ConfigFileReader.getInstance();
         configFileReader.loadProperties();
         System.setProperty(SystemPropertyName.EdgeWebDriver, ConfigFileReader.getDriverPath());
-        WebDriverManager.edgedriver().setup();
 
         driver = new EdgeDriver();
         driver.manage().window().maximize();
