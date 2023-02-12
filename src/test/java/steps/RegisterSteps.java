@@ -31,19 +31,15 @@ public class RegisterSteps {
 
 
     @BeforeAll
-    public void setupClass(){
+    public static void before(){
         WebDriverManager.edgedriver().setup();
     }
 
     @Before("@CustomerRegister")
     public void setup(){
-        ConfigFileReader configFileReader = ConfigFileReader.getInstance();
-        configFileReader.loadProperties();
-        System.setProperty(SystemPropertyName.EdgeWebDriver, ConfigFileReader.getDriverPath());
-
         driver = new EdgeDriver();
         driver.manage().window().maximize();
-        driver.get(configFileReader.getCustomerRegisterPageUrl());
+        driver.get("https://parabank.parasoft.com/parabank/register.htm");
 
         faker = new Faker();
         registerPage = new RegisterPage(driver);
