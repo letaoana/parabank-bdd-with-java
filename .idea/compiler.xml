@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="parabank-bdd-with-java" />
         <module name="ParaBank-BDD-WithJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="parabank-bdd-with-java" target="15" />
       <module name="ParaBank-BDD-WithJava" target="15" />
     </bytecodeTargetLevel>
   </component>

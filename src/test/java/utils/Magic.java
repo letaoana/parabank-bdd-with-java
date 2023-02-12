@@ -5,7 +5,6 @@ import constants.FieldIdentifier;
 import org.openqa.selenium.NotFoundException;
 
 public class Magic {
-
     public static String getFieldErrorMessage(String fieldId){
         return switch (fieldId) {
             case FieldIdentifier.FIRST_NAME_ID -> FieldErrorMessage.FIRST_NAME_ID_ERROR;

@@ -1,0 +1,8 @@
+steps\LoginSteps.class
+utils\Magic.class
+steps\DepositSteps.class
+steps\BalanceSteps.class
+steps\WithdrawSteps.class
+dataprovider\ConfigFileReader.class
+TestRunner.class
+steps\RegisterSteps.class

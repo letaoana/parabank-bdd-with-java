@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="0" name="TestRunner" time="121.537" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\LehlohonoloL\parabank-bdd-with-java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\LehlohonoloL\parabank-bdd-with-java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LEHLOH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Dev\JavaStuff\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\1E\Client\Extensibility\NomadBranch;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\SeleniumGrid;C:\Program Files\Java\jdk-15.0.2;C:\Drivers;C:\SeleniumGrid\nssm-2.24\win64;C:\Dev\JavaStuff\apache-maven-3.8.6\bin;C:\Users\LehlohonoloL\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\LehlohonoloL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin;C:\Users\LehlohonoloL\.dotnet\tools;C:\Users\LehlohonoloL\AppData\Local\Programs\Fiddler;C:\Users\LehlohonoloL\.dotnet\tools;C:\Users\LehlohonoloL\AppData\Roaming\npm;C:\Exercism;C:\Users\LehlohonoloL\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\LehlohonoloL\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;."/>
+    <property name="maven.conf" value="C:\Dev\JavaStuff\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Dev\JavaStuff\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\LehlohonoloL"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="lehlohonolol"/>
+    <property name="java.class.path" value="C:\Dev\JavaStuff\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -e"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Dev\JavaStuff\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Customer Register" name="Successful customer registration" time="12.432"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #1" time="7.31"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #2" time="7.729"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #3" time="8.001"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #4" time="9.203"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #5" time="10.721"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #6" time="14.91"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #7" time="14.766"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #8" time="14.389"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #9" time="11.163"/>
+  <testcase classname="Customer Register" name="Unsuccessful customer registration, display error message #10" time="10.913"/>
+</testsuite>
