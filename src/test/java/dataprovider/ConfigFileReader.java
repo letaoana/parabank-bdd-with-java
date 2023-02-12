@@ -40,14 +40,8 @@ public class ConfigFileReader {
         }
     }
 
-    public String getChromeDriverPath(){
-        String driverPath = properties.getProperty("chromeWebDriverPath");
-        if(driverPath!= null) return driverPath;
-        else throw new RuntimeException("driverPath not specified in the configuration.properties file.");
-    }
-
-    public static String getEdgeDriverPath(){
-        String driverPath = properties.getProperty("edgeWebDriverPath");
+    public static String getDriverPath(){
+        String driverPath = properties.getProperty("webDriverPath");
         if(driverPath!= null) return driverPath;
         else throw new RuntimeException("driverPath not specified in the configuration.properties file.");
     }
