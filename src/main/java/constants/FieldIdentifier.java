@@ -1,6 +1,6 @@
 package constants;
 
-public class FieldIdentifier {
+public final class FieldIdentifier {
     public static final String FIRST_NAME_ID = "customer.firstName";
     public static final String LAST_NAME_ID = "customer.lastName";
     public static final String ADDRESS_ID = "customer.address.street";

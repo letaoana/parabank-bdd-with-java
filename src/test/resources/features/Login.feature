@@ -1,4 +1,4 @@
-@Login
+@CustomerLogin
 Feature: User Login
 
   Scenario: Successful user login

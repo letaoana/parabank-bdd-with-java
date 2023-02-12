@@ -1,24 +1,19 @@
 package steps;
 
 import com.github.javafaker.Faker;
-import constants.SystemPropertyName;
 import customer.Customer;
 import customer.CustomerAddress;
-import dataprovider.ConfigFileReader;
 import constants.FieldIdentifier;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import pages.RegisterPage;
 import utils.Magic;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -28,12 +23,6 @@ public class RegisterSteps {
     private Customer customer;
     private CustomerAddress customerAddress;
     private RegisterPage registerPage;
-
-
-    @BeforeAll
-    public static void before(){
-        WebDriverManager.edgedriver().setup();
-    }
 
     @Before("@CustomerRegister")
     public void setup(){
